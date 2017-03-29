@@ -2,7 +2,7 @@
 [g,fs]=audioread('Initial.wav');
 %y = g(1:480000);
 %t=linspace(0,length(y)/fs,length(y));
-t=linspace(0,,48000);
+t=linspace(0,48000);
 plot(t,g);
 %sound(y,fs);
 Nfft=1024;
